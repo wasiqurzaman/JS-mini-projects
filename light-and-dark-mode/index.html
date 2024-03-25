@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light & Dark Mode</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="dark-mode-outer">
+        <form>
+          <label for="checkbox-outer">Dark mode: </label>
+          <input type="checkbox" name="dark-mode-outer" id="checkbox-outer" />
+          <p class="outer-text">
+            The entire page color theme is contolled using CSS and JavaScript
+          </p>
+        </form>
+      </div>
+      <div>
+        <form>
+          <label for="checkbox-outer">Contained dark mode: </label>
+          <input type="checkbox" name="dark-mode-inner" id="checkbox-inner" />
+          <p class="inner-text">
+            The container color scheme is controlled by only CSS
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
